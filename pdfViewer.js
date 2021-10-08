@@ -1,7 +1,7 @@
 //Design a PDF viewer
 //When a contiguous block of text is selected in a PDF viewer.
 // There is a list of 26 character heights aligned by index to their letters. For example, 'a' is at index 0 and 'z' is at index 25 . There will also be a string. Using the letter heights given, determine the area of the rectangle highlight in mm^2 assuming all letters are 1mm wide.
-
+//link - https://www.hackerrank.com/challenges/designer-pdf-viewer/submissions
 function designPdf(h,word){
   //converting the letter to lowercase and splitting each literal
   word = word.toLowerCase();
